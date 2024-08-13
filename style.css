@@ -1,0 +1,57 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the number buttons container */
+#numberBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+/* Styling for individual number buttons */
+.numberButton {
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect for number buttons */
+.numberButton:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+}
+
+/* Styling for the feedback box */
+#feedbackBox {
+    width: 300px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #e0e0e0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
