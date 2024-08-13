@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #e678d0;
+        }
+        #numberBox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px auto;
+            max-width: 400px;
+        }
+        .numberButton {
+            width: 60px;
+            height: 60px;
+            background-color: #da4c93;
+            border: 1px solid #624e4e;
+            border-radius: 5px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            user-select: none;
+        }
+        .numberButton:hover {
+            background-color: #d663bf;
+        }
+        #feedbackBox {
+            width: 300px;
+            height: 100px;
+            margin: 20px auto;
+            background-color: #c81cc8;
+            border: 2px solid #c26fb2;
+            border-radius: 5px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+    </style>
+</head>
+<body>
+
+<h1>Try to Guess the Number!!</h1>
+<div id="numberBox"></div>
+<div id="feedbackBox">Guess a number between 1 and 100</div>
+<div id="image"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
